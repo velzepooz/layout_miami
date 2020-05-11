@@ -126,10 +126,10 @@ body {
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
     /* stylelint-disable */
-    -webkit-transition: background-color 0.2s ease, cursor 0.2s ease, -webkit-transform 0.2s ease;
-    transition: background-color 0.2s ease, cursor 0.2s ease, -webkit-transform 0.2s ease;
-    transition: transform 0.2s ease, background-color 0.2s ease, cursor 0.2s ease;
-    transition: transform 0.2s ease, background-color 0.2s ease, cursor 0.2s ease, -webkit-transform 0.2s ease;
+    -webkit-transition: background-color 0.2s ease, -webkit-transform 0.2s ease;
+    transition: background-color 0.2s ease, -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-transform 0.2s ease;
     /* stylelint-enable */ }
     .button_primary:hover {
       cursor: url(../images/Mice.png), auto;
@@ -157,10 +157,10 @@ body {
     border: 2px solid #0075ff;
     border-radius: 8px;
     /* stylelint-disable */
-    -webkit-transition: background-color 0.2s ease, cursor 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-    transition: background-color 0.2s ease, cursor 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease, cursor 0.2s ease;
-    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease, cursor 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    -webkit-transition: background-color 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: background-color 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
     /* stylelint-enable */ }
     .button_secondary:hover {
       cursor: url(../images/Mice.png), auto;
@@ -245,8 +245,8 @@ body {
   .header__phone:link, .header__action:link {
     color: #fff;
     text-decoration: none;
-    -webkit-transition: color 0.2s ease, cursor 0.2s ease;
-    transition: color 0.2s ease, cursor 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
     cursor: url(../images/Mice.png), auto; }
     @media (max-width: 851px) {
       .header__phone:link, .header__action:link {
@@ -407,8 +407,8 @@ body {
       border-radius: 8px; }
   .nav__link:link {
     color: white;
-    -webkit-transition: color 0.2s ease, cursor 0.2s ease;
-    transition: color 0.2s ease, cursor 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
     text-decoration: none; }
   .nav__link:visited {
     color: white; }
