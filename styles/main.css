@@ -575,7 +575,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .contact__form {
-    height: 360px; }
+    height: 360px;
+    -ms-flex-item-align: center;
+        align-self: center; }
   @media (max-width: 851px) {
     .contact {
       -webkit-box-orient: vertical;
@@ -602,8 +604,17 @@ body {
   width: 152px; }
   .colomn__name {
     margin-bottom: 8px; }
-  .colomn__paragraph {
+  .colomn__link:link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3e3e3e;
+    font-weight: 400;
     margin-bottom: 24px; }
+  .colomn__link:hover {
+    color: #9fadc2; }
+  .colomn__link:active, .colomn__link:visited {
+    color: #3e3e3e; }
 
 .footer {
   height: 359px;
