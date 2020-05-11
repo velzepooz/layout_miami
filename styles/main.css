@@ -146,7 +146,7 @@ body {
               transform: translateY(3px); }
     @media (max-width: 851px) {
       .button_primary {
-        max-width: 280px; } }
+        max-width: 100%; } }
   .button_secondary {
     width: 188px;
     height: 56px;
@@ -176,7 +176,7 @@ body {
               transform: translateY(3px); }
     @media (max-width: 851px) {
       .button_secondary {
-        max-width: 280px; } }
+        max-width: 100%; } }
 
 .form {
   display: -webkit-box;
@@ -201,7 +201,7 @@ body {
       resize: none; }
   @media (max-width: 851px) {
     .form {
-      width: 280px; } }
+      max-width: 100%; } }
 
 .header {
   height: 700px;
