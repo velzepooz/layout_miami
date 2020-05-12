@@ -612,10 +612,10 @@ body {
     color: #3e3e3e;
     font-weight: 400;
     margin-bottom: 24px; }
-  .colomn__link:hover {
-    color: #9fadc2; }
   .colomn__link:active, .colomn__link:visited {
     color: #3e3e3e; }
+  .colomn__link:hover {
+    color: #9fadc2; }
 
 .footer {
   height: 359px;
