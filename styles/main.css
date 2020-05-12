@@ -48,12 +48,11 @@
   font-weight: 400;
   padding: 17px;
   background: #f7f8ff;
-  border: 1px solid #fff;
   border-radius: 8px;
-  -webkit-transition: background-color 0.2s, -webkit-box-shadow 0.2s;
-  transition: background-color 0.2s, -webkit-box-shadow 0.2s;
-  transition: background-color 0.2s, box-shadow 0.2s;
-  transition: background-color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s; }
+  -webkit-transition: -webkit-box-shadow 0.2s;
+  transition: -webkit-box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s; }
   .form__input::-webkit-input-placeholder, .form__input-textarea::-webkit-input-placeholder {
     color: #b9c1ce; }
   .form__input::-moz-placeholder, .form__input-textarea::-moz-placeholder {
@@ -180,6 +179,7 @@ body {
               transform: translateY(3px); }
     @media (max-width: 851px) {
       .button_secondary {
+        width: 413px;
         max-width: 100%; } }
 
 .form {
