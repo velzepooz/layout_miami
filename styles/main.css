@@ -135,6 +135,7 @@ body {
     transition: transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
     /* stylelint-enable */ }
     .button_primary:hover {
+      cursor: pointer;
       -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
               box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
     .button_primary:focus {
@@ -165,6 +166,7 @@ body {
     transition: background-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
     /* stylelint-enable */ }
     .button_secondary:hover {
+      cursor: pointer;
       color: #fff;
       background-color: #0075ff; }
     .button_secondary:focus {
