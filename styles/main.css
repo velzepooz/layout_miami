@@ -49,10 +49,10 @@
   padding: 17px;
   background: #f7f8ff;
   border-radius: 8px;
-  -webkit-transition: -webkit-box-shadow 0.2s;
-  transition: -webkit-box-shadow 0.2s;
-  transition: box-shadow 0.2s;
-  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s; }
+  -webkit-transition: -webkit-box-shadow 300ms;
+  transition: -webkit-box-shadow 300ms;
+  transition: box-shadow 300ms;
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms; }
   .form__input::-webkit-input-placeholder, .form__input-textarea::-webkit-input-placeholder {
     color: #b9c1ce; }
   .form__input::-moz-placeholder, .form__input-textarea::-moz-placeholder {
@@ -126,18 +126,17 @@ body {
     background-color: #0075ff;
     border: none;
     border-radius: 8px;
-    -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
-            box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 117, 255, 0.46);
+            box-shadow: 0 3px 10px rgba(0, 117, 255, 0.46);
     /* stylelint-disable */
-    -webkit-transition: background-color 0.2s ease, -webkit-transform 0.2s ease;
-    transition: background-color 0.2s ease, -webkit-transform 0.2s ease;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-    transition: transform 0.2s ease, background-color 0.2s ease, -webkit-transform 0.2s ease;
+    -webkit-transition: background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, background-color 300ms ease;
+    transition: transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
     /* stylelint-enable */ }
     .button_primary:hover {
-      cursor: url(../images/Mice.png), auto;
-      -webkit-box-shadow: 0 3px 10px rgba(0, 117, 255, 0.46);
-              box-shadow: 0 3px 10px rgba(0, 117, 255, 0.46); }
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
     .button_primary:focus {
       outline: dashed 0.2px; }
     .button_primary:active {
@@ -160,15 +159,14 @@ body {
     border: 2px solid #0075ff;
     border-radius: 8px;
     /* stylelint-disable */
-    -webkit-transition: background-color 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-    transition: background-color 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
-    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
-    transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.2s ease, -webkit-box-shadow 0.2s ease, -webkit-transform 0.2s ease;
+    -webkit-transition: background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: background-color 300ms ease, -webkit-transform 300ms ease;
+    transition: background-color 300ms ease, transform 300ms ease;
+    transition: background-color 300ms ease, transform 300ms ease, -webkit-transform 300ms ease;
     /* stylelint-enable */ }
     .button_secondary:hover {
-      cursor: url(../images/Mice.png), auto;
-      -webkit-box-shadow: 0 3px 10px rgba(0, 117, 255, 0.76);
-              box-shadow: 0 3px 10px rgba(0, 117, 255, 0.76); }
+      color: #fff;
+      background-color: #0075ff; }
     .button_secondary:focus {
       outline: dashed 0.1px; }
     .button_secondary:active {
@@ -246,9 +244,8 @@ body {
   .header__phone:link, .header__action:link {
     color: #fff;
     text-decoration: none;
-    -webkit-transition: color 0.2s ease;
-    transition: color 0.2s ease;
-    cursor: url(../images/Mice.png), auto; }
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease; }
     @media (max-width: 851px) {
       .header__phone:link, .header__action:link {
         display: none; } }
@@ -348,8 +345,8 @@ body {
     border-bottom: 1px solid #fff; }
     .nav-mob__call-link:link {
       color: white;
-      -webkit-transition: color 0.2s ease;
-      transition: color 0.2s ease;
+      -webkit-transition: color 300ms ease;
+      transition: color 300ms ease;
       text-decoration: none; }
     .nav-mob__call-link:visited, .nav-mob__call-link:hover, .nav-mob__call-link:active {
       color: #fff; }
@@ -380,8 +377,8 @@ body {
     color: #fff; }
     .nav-mob__link:link {
       color: white;
-      -webkit-transition: color 0.2s ease;
-      transition: color 0.2s ease;
+      -webkit-transition: color 300ms ease;
+      transition: color 300ms ease;
       text-decoration: none; }
     .nav-mob__link:visited, .nav-mob__link:hover, .nav-mob__link:active {
       color: #fff; }
@@ -408,14 +405,13 @@ body {
       border-radius: 8px; }
   .nav__link:link {
     color: white;
-    -webkit-transition: color 0.2s ease;
-    transition: color 0.2s ease;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
     text-decoration: none; }
   .nav__link:visited {
     color: white; }
   .nav__link:hover {
-    color: #9fadc2;
-    cursor: url(../images/Mice.png), auto; }
+    color: #9fadc2; }
   .nav__link:active {
     color: #fff; }
 
@@ -478,7 +474,11 @@ body {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
-    border-radius: 8px; }
+    border-radius: 8px;
+    -webkit-transition: -webkit-box-shadow 300ms ease;
+    transition: -webkit-box-shadow 300ms ease;
+    transition: box-shadow 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease; }
     .photos__img:hover {
       -webkit-box-shadow: 0 15px 55px rgba(0, 0, 0, 0.3);
               box-shadow: 0 15px 55px rgba(0, 0, 0, 0.3); }
@@ -587,7 +587,7 @@ body {
               flex-direction: column; } }
 
 .contacts {
-  max-width: 413px;
+  width: 413px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

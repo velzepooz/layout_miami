@@ -11,16 +11,15 @@ ul {
 a:link {
   color: #0075ff;
   text-decoration: none;
-  -webkit-transition: color 0.2s, cursor ease;
-  transition: color 0.2s, cursor ease;
+  -webkit-transition: color 300ms;
+  transition: color 300ms;
   font-weight: 700; }
 
 a:visited {
   color: #0075ff; }
 
 a:hover {
-  color: #9fadc2;
-  cursor: url(../images/Mice.png), auto; }
+  color: #9fadc2; }
 
 a:active {
   color: #9fadc2; }
